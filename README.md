@@ -45,21 +45,12 @@ containing a question and a collection of answers in the form of choices.
  
 | Método | URL | Body| Header | Ação |
 | --- | --- | --- | --- | --- |
-| POST | http://localhost:1111/users/signup | { "firstName":"Usuário","lastName":"Teste", "email": "usuario.test@admin.com","password": "admin"} | |Salva os dados do usário a partir do JSON enviado na requisição |
-| POST | http://localhost:1111/users/login | { "email":"usuario.test@admin.com", "password":"admin" } | |Logar os dados do usário a partir do JSON enviado na requisição |
-| GET | http://localhost:1111/users/{userId} | {} |Retorna os dados do usuário com o ID passado|
-| PATCH | http://localhost:1111/users/{userId} | {"lastName": "Novo sobrenome"} |Authorization: Bearer {token} |Editar os dados do usário a partir do JSON enviado na requisição |
-| DELETE | http://localhost:1111/users/{userId} | {} | |Remove os dados do usuário a partir do ID passado | 
+| POST | http://localhost:1111/users/signup | { "firstName":"Usuário","lastName":"Teste", "email": "usuario.test@admin.com","password": "admin"} | Content-Type: application/json |Cria um novo usuário a partir do JSON enviado na requisição |
+| POST | http://localhost:1111/users/login | { "email":"usuario.test@admin.com", "password":"admin" } | Content-Type: application/json |Logar os dados do usário a partir do JSON enviado na requisição e Retorna um token|
+| GET | http://localhost:1111/users/{userId} | {} | |Retorna os dados do usuário com o ID passado|
+| PATCH | http://localhost:1111/users/{userId} | {"lastName": "Novo sobrenome"} | Content-Type: application/json ,Authorization: Bearer {token} |Editar os dados do usário a partir do JSON enviado na requisição |
+| DELETE | http://localhost:1111/users/{userId} | {} | Content-Type: application/json ,Authorization: Bearer {token} |Remove os dados do usuário a partir do ID passado | 
 
-### Criando uma nova citaçao
- 
-| Método | URL | Body| Ação |
-| --- | --- | --- | --- |
-| POST | http://localhost:1111/users/signup | { "quote":""} |Salva os dados do usário a partir do JSON enviado na requisição |
-| POST | http://localhost:1111/users/login | { "email":"usuario.test@admin.com", "password":"admin" } |Logar os dados do usário a partir do JSON enviado na requisição |
-| GET | http://localhost:1111/users/{userId} | {} |Retorna os dados do usuário com o ID passado|
-| PATCH | http://localhost:1111/users/{userId} | {"lastName": "Novo sobrenome"} |Editar os dados do usário a partir do JSON enviado na requisição |
-| DELETE | http://localhost:1111/users/{userId} | {} |Remove os dados do usuário a partir do ID passado |
 
 
 
