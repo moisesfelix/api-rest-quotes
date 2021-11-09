@@ -1,7 +1,7 @@
-# api-rest-quotes
+# api-rest-quotes 📝
 
           
- # Testando a api
+ # Testando a api 🚀
  
  ### Instalando o projeto
 
@@ -21,7 +21,7 @@ nodemon server.js
  
  ### Criando um novo usuário
  
-| Método | URL | Body| Header | Ação |
+| Verbos | URL | Body| Header | Ação |
 | --- | --- | --- | --- | --- |
 | POST | http://localhost:1111/users/signup | { "firstName":"Usuário","lastName":"Teste", "email": "usuario.test@admin.com","password": "admin"} | Content-Type: application/json |Cria um novo usuário a partir do JSON enviado na requisição |
 | POST | http://localhost:1111/users/login | { "email":"usuario.test@admin.com", "password":"admin" } | Content-Type: application/json |Logar os dados do usário a partir do JSON enviado na requisição e Retorna um token|
@@ -32,12 +32,12 @@ nodemon server.js
  
  ### Criando uma citação
  
-| Método | URL | Body| Header | Ação |
+| Verbos | URL | Body| Header | Ação |
 | --- | --- | --- | --- | --- |
 | POST | http://localhost:1111/quote | { "quote":"Escreva a sua citação com no máximo 140 caractéres"} | Content-Type: application/json, Authorization: Bearer {token} |Cria uma nova citação a partir do JSON enviado na requisição |
 | GET | http://localhost:1111/quote/ | {} |  |Retorna todas as citações|
 | GET | http://localhost:1111/quote/{quoteId} | {} | |Retorna uma citação com o ID passado|
-| GET | http://localhost:1111/quote/?keyword={word} | {} | |Retorna todas citações que contenha a palavra chave enviada|
+| GET | http://localhost:1111/quote/?keyword={keyword} | {} | |Retorna todas citações que contenha a palavra chave enviada na Query string (keyword)|
 | PATCH | http://localhost:1111/quote/{quoteId} | {"quote": "Citação atualizada"} | Content-Type: application/json ,Authorization: Bearer {token} |Editar os dados do usário a partir do JSON enviado na requisição |
 | DELETE | http://localhost:1111/quote/{quoteId} | {} | Content-Type: application/json, Authorization: Bearer {token} |Remove os dados do usuário a partir do ID passado | 
 
