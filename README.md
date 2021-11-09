@@ -57,3 +57,11 @@ nodemon server.js
     - "mongoose": "^6.0.12"
     - "morgan": "^1.10.0"
     - "nodemon": "^2.0.14"
+
+
+### Softwares usados na criação do projeto
+
+- MongoDB Cloud 
+- Visual Studio Code 
+- Insomnia REST Client
+- Node.js
