@@ -66,4 +66,16 @@ containing a question and a collection of answers in the form of choices.
 
 
 
+### Recursos utilizados no desenvolvimento:
 
+
+   - "bcryptjs": "^2.4.3",
+    - "body-parser": "^1.19.0",
+    - "cors": "^2.8.5",
+    - "dotenv-safe": "^8.2.0",
+    - "express": "^4.17.1",
+    - "joi": "^17.4.2",
+    - "jsonwebtoken": "^8.5.1",
+    - "mongoose": "^6.0.12",
+    - "morgan": "^1.10.0",
+    - "nodemon": "^2.0.14"
