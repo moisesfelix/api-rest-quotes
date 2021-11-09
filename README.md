@@ -42,8 +42,8 @@ containing a question and a collection of answers in the form of choices.
  #Testando a api
  ###Criando um novo usuário
  
- | Método | URL | Açao |
-| --- | --- |
+| Método | URL | Açao |
+| --- | --- | --- |
 | POST | http://localhost:1111/users | Salva os dados do usário a partir do JSON enviado na requisição |
 | GET | http://localhost:1111/users/{userId} | Retorna os dados do usuário com o ID passado|
 | PATCH | http://localhost:1111/users/{userId} | Editar os dados do usário a partir do JSON enviado na requisição |
