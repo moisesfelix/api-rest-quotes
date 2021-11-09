@@ -1,6 +1,5 @@
 # api-rest-quotes
 
-## Api Quote [/quote]
           
  # Testando a api
  
@@ -8,8 +7,14 @@
 
 ```
 git clone https://github.com/moisesfelix/api-rest-quotes.git
+```
+```
 cd api-rest-quotes
+```
+```
 npm i
+```
+```
 nodemon server.js
 ``` 
 
