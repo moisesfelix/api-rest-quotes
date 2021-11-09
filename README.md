@@ -61,7 +61,9 @@ nodemon server.js
 
 ### Softwares usados na criação do projeto
 
-- MongoDB Cloud 
-- Visual Studio Code 
-- Insomnia REST Client
+- Visual Studio Code
 - Node.js
+- MongoDB Cloud 
+- Insomnia REST Client
+- Git
+- Github
