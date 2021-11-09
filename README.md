@@ -4,20 +4,15 @@
           
  # Testando a api
  
- ###Instalando o projeto
- Clone o projeto https://github.com/moisesfelix/api-rest-quotes.git, em segui entre na pasta /api-rest-quotes
- git clone https://github.com/moisesfelix/api-rest-quotes.git
- 
- depois entre na pasta
- 
- cd api-rest-quotes
- 
- em seguida execute comando
- npm i para instalar as dependências do projeto
- 
- e depois
- 
- nodemon server.js
+ ### Instalando o projeto
+
+```
+git clone https://github.com/moisesfelix/api-rest-quotes.git
+cd api-rest-quotes
+npm i
+nodemon server.js
+``` 
+
  
  ### Criando um novo usuário
  
